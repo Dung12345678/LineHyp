@@ -1,0 +1,27 @@
+10:38:07:threadShowAndonDetails(): System.InvalidOperationException: Invoke or BeginInvoke cannot be called on a control until the window handle has been created.
+   at System.Windows.Forms.Control.MarshaledInvoke(Control caller, Delegate method, Object[] args, Boolean synchronous)
+   at System.Windows.Forms.Control.Invoke(Delegate method, Object[] args)
+   at System.Windows.Forms.Control.Invoke(Delegate method)
+   at BMS.frmProductCheckHistory1.threadShowAndonDetails()
+10:51:50:threadShowAndonDetails(): System.ObjectDisposedException: Cannot access a disposed object.
+Object name: 'frmProductCheckHistory1'.
+   at System.Windows.Forms.Control.MarshaledInvoke(Control caller, Delegate method, Object[] args, Boolean synchronous)
+   at System.Windows.Forms.Control.Invoke(Delegate method, Object[] args)
+   at System.Windows.Forms.Control.Invoke(Delegate method)
+   at System.Windows.Forms.Control.Invoke(Delegate method)
+   at BMS.frmProductCheckHistory1.checkColorCD()
+12:07:22:threadShowAndonDetails(): System.ObjectDisposedException: Cannot access a disposed object.
+Object name: 'frmProductCheckHistory1'.
+   at System.Windows.Forms.Control.MarshaledInvoke(Control caller, Delegate method, Object[] args, Boolean synchronous)
+   at System.Windows.Forms.Control.Invoke(Delegate method, Object[] args)
+   at System.Windows.Forms.Control.Invoke(Delegate method)
+   at BMS.frmProductCheckHistory1.checkColorCD() in D:\project\Sumitomo\Line\Hyponic\Line\LineHypSub-2021-04-12+Picking+Mo+SauPCA\Forms\frmProductCheckHistory1.cs:line 741
+13:27:38:threadShowAndonDetails(): System.ObjectDisposedException: Cannot access a disposed object.
+Object name: 'frmProductCheckHistory1'.
+   at System.Windows.Forms.Control.MarshaledInvoke(Control caller, Delegate method, Object[] args, Boolean synchronous)
+   at System.Windows.Forms.Control.Invoke(Delegate method, Object[] args)
+   at System.Windows.Forms.Control.Invoke(Delegate method)
+   at BMS.frmProductCheckHistory1.threadShowAndonDetails() in D:\project\Sumitomo\Line\Hyponic\Line\LineHypSub-2021-04-12+Picking+Mo+SauPCA\Forms\frmProductCheckHistory1.cs:line 807
+   at System.Windows.Forms.Control.Invoke(Delegate method, Object[] args)
+   at System.Windows.Forms.Control.Invoke(Delegate method)
+   at BMS.frmProductCheckHistory1.checkColorCD() in D:\project\Sumitomo\Line\Hyponic\Line\LineHypSub-2021-04-12+Picking+Mo+SauPCA\Forms\frmProductCheckHistory1.cs:line 741

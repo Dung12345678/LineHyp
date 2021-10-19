@@ -1,0 +1,5 @@
+11:54:59:threadShowAndonDetails(): System.InvalidOperationException: Invoke or BeginInvoke cannot be called on a control until the window handle has been created.
+   at System.Windows.Forms.Control.MarshaledInvoke(Control caller, Delegate method, Object[] args, Boolean synchronous)
+   at System.Windows.Forms.Control.Invoke(Delegate method, Object[] args)
+   at System.Windows.Forms.Control.Invoke(Delegate method)
+   at BMS.frmProductCheckHistory1.threadShowAndonDetails() in D:\project\Sumitomo\Line\Hyponic\Line\LineHypSub-2021-04-12+Picking+Mo+SauPCA\Forms\frmProductCheckHistory1.cs:line 778
